@@ -1,0 +1,38 @@
+Kurulum için gerekenler:
+
+1. XAMPP'in kurulu olması: 
+
+- XAMPP'in en güncel sürümünün bilgisayarınıza yüklü olduğundan ve Apache ile MySQL servislerinin açık olduğundan emin olun.
+- XAMPP’i başlatın.
+- Apache ve MySQL servislerini "Start" butonuna basarak çalıştırın.
+
+2. Veritabanı oluşturma:
+- Tarayıcınızdan "http://localhost/phpmyadmin" adresine gidin.
+- Üst menüden "Veritabanları" sekmesine tıklayın.
+- "Veritabanı Oluştur" kısmına "film_sitesi" ismini yazın ve "Oluştur" butonuna tıklayın.
+
+3. SQL dosyasını içe aktarma:
+
+- Sol taraftaki menüden oluşturduğunuz "film_sitesi" veritabanına tıklayın.
+- Üst menüden "İçe Aktar" sekmesine tıklayın.
+- "Dosya Seç" butonuna tıklayarak size verilen .zip dosyasının içindeki "film_sitesi.sql" dosyasını seçin.
+- Sayfanın en altına inip "Go" butonuna tıklayın ve işlemin tamamlanmasını bekleyin.
+
+4. Site dosyalarını kopyalama:
+- Bilgisayarınızdaki "C:\xampp\htdocs" klasörüne gidin.
+- Size verilen .zip dosyasının içindeki "film-sitesi" klasörünü buraya kopyalayın.
+
+5. Kurulumu doğrulama:
+- Tarayıcınızdan "http://localhost/film-sitesi/index.php" adresine gidin.
+- Eğer kurulum başarılı olduysa, siteyi burada görebilmelisiniz.
+
+6. Admin Panele Erişim:
+- Admin Panel'e giriş yapmak için, sitenin footerındaki "Admin Panel" yazısına tıklayın. Giriş bilgileri;
+
+Kullanıcı Adı: admin
+Şifre: admin
+
+7. Ekstra Notlar:
+
+- Eğer .zip dosyasını çıkartırken bir problem yaşarsanız, dosyayı manuel olarak çıkarıp içeriğini "C:\xampp\htdocs" klasörüne yapıştırabilirsiniz.
+- Eğer site açılmazsa, PHP sürüm uyumluluğu veya dosya izinleri gibi konularda problem olup olmadığını kontrol edin.
